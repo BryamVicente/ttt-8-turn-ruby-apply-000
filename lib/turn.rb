@@ -20,9 +20,9 @@ end
 
 
 def input_to_index(user_input)
-  integer = user_input.to_i - 1
+  integer = Integer(user_input)
   integer = integer - 1
-  
+
   end
 
 def turn(board)
