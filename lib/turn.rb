@@ -22,7 +22,6 @@ end
 def input_to_index(user_input)
   integer = Integer(user_input)
   integer = integer - 1
-  if user_input !=
 end
 
 def turn(board)
