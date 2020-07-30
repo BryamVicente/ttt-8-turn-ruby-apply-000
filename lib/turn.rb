@@ -22,6 +22,7 @@ end
 def input_to_index(user_input)
   integer = Integer(user_input)
   integer = integer - 1
+  user_input.to_i - 1
   end
 
 
